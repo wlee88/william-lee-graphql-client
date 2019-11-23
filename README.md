@@ -2,6 +2,8 @@
 
 Client side app for showing my graphQl deets.
 
+TODO: rewrite this not using create-react-app.. because it's way too much bloat.
+
 ## Available Scripts
 
 In the project directory, you can run:
