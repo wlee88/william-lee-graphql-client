@@ -4,7 +4,7 @@ import GraphiQL from 'graphiql';
 import 'graphiql/graphiql.css';
 import './App.css';
 
-
+const GRAPH_QL_SERVER_API_URL = 'https://william-lee-graph-ql.herokuapp.com';
 const WELCOME_MESSAGE = `# 👋 Hello
 # http://iam.william-lee.com and I am a Full Stack Developer 
 # of about 10 years and currently living in Brisbane, Australia.
@@ -29,8 +29,7 @@ const WELCOME_MESSAGE = `# 👋 Hello
   hobbies
 }
 `
-
-var fetchURL = 'https://william-lee-graph-ql.herokuapp.com';
+var fetchURL = GRAPH_QL_SERVER_API_URL;
 
 // Defines a GraphQL fetcher using the fetch API.
 function graphQLFetcher(graphQLParams) {
