@@ -40,7 +40,7 @@ jobs:
           command: ls .
       - run:
           name: Deploy to S3
-          command: aws s3 cp --recursive ~/project/build s3://william-lee.com/
+          command: aws s3 cp --recursive ~/project/build s3://william-lee.com/ && aws s3 cp --recursive ~/project/build s3://www.william-lee.com/
 
 workflows:
   version: 2
