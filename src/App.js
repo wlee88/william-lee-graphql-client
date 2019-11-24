@@ -4,13 +4,12 @@ import GraphiQL from 'graphiql';
 import 'graphiql/graphiql.css';
 import './App.css';
 
-const GRAPH_QL_SERVER_API_URL = 'https://william-lee-graph-ql.herokuapp.com';
+const GRAPH_QL_SERVER_API_URL = 'https://olc94y2409.execute-api.ap-southeast-2.amazonaws.com/production/graphql';
 const WELCOME_MESSAGE = `# 👋 Hello
 # http://iam.william-lee.com and I am a Full Stack Developer 
 # of about 10 years and currently living in Brisbane, Australia.
 #
-# Have fun and explore me in graphQL.
-# It's also way easier to update my things.
+# Have fun and query my deets in GraphQL.
 # 
 # Explore the docs on the right hand side for all my info or just 
 # run my default query below.
