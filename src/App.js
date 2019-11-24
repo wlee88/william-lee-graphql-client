@@ -7,11 +7,11 @@ import './App.css';
 const GRAPH_QL_SERVER_API_URL = 'https://olc94y2409.execute-api.ap-southeast-2.amazonaws.com/production/graphql';
 const WELCOME_MESSAGE = `# 👋 Hello
 # http://iam.william-lee.com and I am a Full Stack Developer 
-# of about 10 years and currently living in Brisbane, Australia.
+# currently living in Brisbane, Australia.
 #
 # Have fun and query my deets in GraphQL.
 # 
-# Explore the docs on the right hand side for all my info or just 
+# Explore the docs on the right hand side or just 
 # run my default query below.
 #
 # Protip: use cmd + enter to run a query.
@@ -19,6 +19,7 @@ const WELCOME_MESSAGE = `# 👋 Hello
 {
   name,
   born,
+  devAge,
   email,
   favouriteTech,
   resume,
