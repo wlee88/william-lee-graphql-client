@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "codemirror-graphql": "^0.11.2",
-    "graphiql": "^0.16.0",
+    "graphiql": "^1.4.7",
     "graphql": "^14.5.8",
     "isomorphic-fetch": "^2.2.1",
     "react": "^16.12.0",
